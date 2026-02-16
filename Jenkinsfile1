@@ -1,3 +1,4 @@
+pipeline {
 agent say
 stages
 {
@@ -20,4 +21,4 @@ stage("Release")
 {
 steps{
 echo"this is a Build Job"
-}}
+}}}
