@@ -1,0 +1,23 @@
+agent say
+stages
+{
+stage("Build")
+{
+steps{
+echo"this is a Build Job"
+}}
+stage("Deploy")
+{
+steps{
+echo"this is a Deploy Job"
+}}
+stage("Test")
+{
+steps{
+echo"this is a Test Job"
+}}
+stage("Release")
+{
+steps{
+echo"this is a Build Job"
+}}
